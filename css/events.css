@@ -3,6 +3,8 @@
 	font-size: 25px;
 }
 
+
+
 .info{
 	background-color: #C21B1B;
 	color: white;
@@ -49,6 +51,12 @@ div.desc {
 
 @media  screen and (max-width: 1000px) {
 
+	.container .row{
+
+	align-items: center;
+	justify-content: center;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto ;
@@ -68,14 +76,22 @@ div.gallery {
 .info{
   background-color: #C21B1B;
   color: white;
-  margin-left: 44px;
+  margin-left: -90px;
+  margin-top: 20px;
+
+
   
 
 }
 
 
-
 @media  screen and (max-width: 768px) {
+
+	.container .row{
+
+	align-items: center;
+	justify-content: center;
+}
   
 .grid-container {
   display: grid;
@@ -94,9 +110,14 @@ div.gallery {
  
 }
 .info{
+	margin-top: 20px;
   background-color: #C21B1B;
   color: white;
+  align-items: center;
 
-  
 
-}}
+
+}
+
+
+}
